@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAF8F6;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 9% 5% 20% 5%;
+}
+
+.firstbutton{
+    width: 182px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #172339;
+    color: #172339;
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-size: 14px;
+    background: none;
+}
+
+.headerlogo{
+    width: 81px;
+    height: 30px;
+    margin-top: 7px;
+}
+
+h2{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    color: #172339;
+}
+
+h2 span{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 44px;
+    color: #172339;
+}
+
+.firstp{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #49566D;
+}
+
+.secondbutton{
+    width: 256px;
+    height: 61px;
+    border-radius: 6px;
+    border: none;
+    background: #172339;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FAF8F6;
+}
+
+main{
+    padding: 0% 4.5% 60% 5%;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.textside{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.numberside{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.imgside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobilepic{
+    width: 343px;
+    height: 240px;
+}
+
+.mobilepic2{
+    display: none;
+}
+
+.numberside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #172339;
+}
+
+.box p{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    color: #49566D;
+}
+
+.rkali{
+    background-image: url(./asstes/Path\ 2\ \(1\).png);
+    background-position: 75% 8%;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+}
+
+.bluebox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #172339;
+    border-radius: 15px;
+    padding: 90% 5% 19% 5%;
+    position: relative;
+    bottom: -10px;
+}
+
+.boy{
+    width: 252px;
+    height: 400px;
+    position: absolute;
+    top: -20%;
+}
+
+h3{
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.416667px;
+    color: #FAF8F6;
+    text-align: center;
+}
+
+h3 span{
+    font-weight: 700;
+}
+
+.secondp{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.09px;
+    color: #F3EDE7;
+    margin-top: 40px;
+}
+
+h4{
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+    margin-top: 40px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+}
+
+h5{
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #F3EDE7;
+}
+
+.guy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    height: 286px;
+    background-color: #F3EDE7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+
+}
+
+.cp{
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.0833333px;
+    color: #49566D;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 125px;
+}
+
+
+
